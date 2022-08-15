@@ -1,0 +1,75 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
+.carousel {
+  background-color: pink;
+  position: relative;
+  height: 500px;
+  width: 500px;
+  margin: 0 auto;
+}
+
+.carouselImage {
+  width: 100%;
+  height: 100%;
+}
+
+.carouselTrackContainer {
+  position: relative;
+  background-color: purple;
+  height: 100%;
+  overflow: hidden;
+}
+
+.carouselTracker {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  height: 100%;
+  transition: transform 250ms ease-in;
+}
+
+.carouselSlide {
+  position: absolute;
+  top: 0px;
+/*   bottom: 0px; */
+  width: 100%;
+}
+
+.nav {
+  position: absolute;
+  top: 0%;
+  height: 500px;
+  width: 100px;
+}
+
+.carouselLeft {
+  left: 0px;
+}
+
+.carouselRight {
+  right: 0px;
+}
+
+.carouselNav {
+  width: 500px;
+  margin: 0 auto;
+/*   background-color: lightblue; */
+  display: flex;
+  justify-content: center;
+  padding: 10px 0px;
+}
+
+.carouselIndicator {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin: 0px 10px;
+  background: rgba(0, 0, 0, .3) ;
+}
+
+.carouselIndicator.currentSlide {
+  background: rgba(0, 0, 0, .75) ;
+}
