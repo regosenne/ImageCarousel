@@ -33,4 +33,4 @@ function nextbtn() {
 }
 RightBtn.addEventListener('click', nextbtn);
 
-
+//gonna add more functionality
